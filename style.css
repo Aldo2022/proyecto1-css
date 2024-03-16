@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(to right, rgb(210, 223, 36), rgb(2, 69, 194));
+  margin-bottom: 150px;
+}
+header {
+  text-align: center;
+}
+
+.active {
+  background-color: rgb(210, 223, 36);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+  font-size: 22px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+h1 {
+  background-color: black;
+  margin: 0;
+  padding: 15px;
+  color: white;
+}
+footer {
+  background-color: #111;
+  color: white;
+  padding: 2px;
+  margin: 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

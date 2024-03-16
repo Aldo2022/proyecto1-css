@@ -1,0 +1,49 @@
+.contenedor {
+  background-color: #999; /*Fondo gris del area de tranajo*/
+  border-radius: 10px; /*borde en forma circular*/
+  margin: 10px 0; /*margen porafuera 10px arriba,abajo y cero a los costados*/
+  padding: 20px; /*margen adentro por todos los costados 20px*/
+  width: 50%; /*solo trabajo con el 50% del ancho total*/
+  position: relative; /*me poseciono en el punto cero*/
+  left: 25%; /*ahora me adelanto un 25% de mi posecion cero*/
+  font-size: 25px; /*agrando mi fuente*/
+}
+/*tomo los elementos indicados y aplioo atributos*/
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  font-size: 20px; /*aumento el tamaño de mi fuente*/
+  width: 100%; /*mi 100% en mi fondo gris , entonces utilizo todo el ancho*/
+  max-width: 100%; /*digo q mi maximo va a ser 100% del ancho, entonces mi ancho de mi comentario no va a sobrepasar el fondo gris*/
+  padding: 15px; /*distanci0 margen adentro*/
+  margin: 8px 0; /*distancio margen afuera 8px arriba abajo y 0 a los costados*/
+  border: 1px solid rgb(70, 70, 70); /*le doy color y ancho a mi borde*/
+  border-radius: 10px; /*aredondeo los bordes*/
+  box-sizing: border-box; /*corrige q no se salga nada del fondo gris*/
+}
+input[type="submit"] {
+  width: 100%; /*utilizo todo el ancho par el boton*/
+  background-color: green; /*aplico color en el fondo*/
+  color: white; /*apilco color en la letra*/
+  font-size: 20px; /*aumento el tamaño de la fuente*/
+  border-radius: 10px; /*aplico borde */
+  margin: 8px 0;
+  padding: 15px;
+  cursor: pointer; /*Aca se cambiar el cursor al posecionarse en el boton*/
+}
+input[type="submit"]:hover {
+  background-color: rgb(
+    9,
+    194,
+    24
+  ); /*cuando me acerco en el boton cambia el color*/
+}
+input:focus,
+textarea:focus {
+  background-color: rgb(
+    191,
+    236,
+    210
+  ); /*cambia color cuando escribo en las celdas input*/
+}
